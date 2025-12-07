@@ -30,7 +30,7 @@ MonoBehaviour:
     isUIWidget: 0
   - uiElementRegex: m_item
     componentName: 0
-    isUIWidget: 0
+    isUIWidget: 1
   - uiElementRegex: m_tf
     componentName: 1
     isUIWidget: 0
@@ -82,6 +82,12 @@ MonoBehaviour:
   - uiElementRegex: m_canvasGroup
     componentName: 18
     isUIWidget: 0
+  - uiElementRegex: m_toggle
+    componentName: 15
+    isUIWidget: 0
   - uiElementRegex: m_tmp
     componentName: 19
+    isUIWidget: 0
+  - uiElementRegex: m_tInput
+    componentName: 22
     isUIWidget: 0
