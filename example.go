@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/Zwlin98/moon/cluster"
-	"github.com/Zwlin98/moon/service"
+	"github.com/cloudfreexiao/eris/cluster"
+	"github.com/cloudfreexiao/eris/service"
 )
 
 func main() {

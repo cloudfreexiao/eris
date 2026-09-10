@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"net"
 
-	"github.com/Zwlin98/moon/gate"
-	"github.com/Zwlin98/moon/lua"
+	"github.com/cloudfreexiao/eris/gate"
+	"github.com/cloudfreexiao/eris/lua"
 )
 
 // execute request from other skynet node

@@ -6,9 +6,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Zwlin98/moon/gate"
-	"github.com/Zwlin98/moon/lua"
-	"github.com/Zwlin98/moon/service"
+	"github.com/cloudfreexiao/eris/gate"
+	"github.com/cloudfreexiao/eris/lua"
+	"github.com/cloudfreexiao/eris/service"
 )
 
 type Clusterd interface {

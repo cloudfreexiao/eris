@@ -135,7 +135,7 @@ func packSingleRequest(r Request) (PackedRequest, error) {
 	case string:
 		name := r.Address.(string)
 		nameLen := uint8(len(name))
-		if nameLen < 1 || nameLen > 255 {
+		if nameLen < 1 {
 			return PackedRequest{}, fmt.Errorf("name length error")
 		}
 		// 1 byte for request type
@@ -207,7 +207,7 @@ func packMultiRequest(r Request) (PackedRequest, error) {
 	pr.Data = bufData.Bytes()
 
 	part := int((msgSize-1)/MULTI_PART + 1)
-	for i := 0; i < part; i++ {
+	for i := range part {
 		partBuf := bytes.NewBuffer(nil)
 		var s uint32
 		var reqType uint8

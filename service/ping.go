@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/Zwlin98/moon/lua"
+	"github.com/cloudfreexiao/eris/lua"
 )
 
 type PingService struct{}

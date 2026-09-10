@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	"github.com/Zwlin98/moon/lua"
+	"github.com/cloudfreexiao/eris/lua"
 )
 
 type ExampleService struct{}

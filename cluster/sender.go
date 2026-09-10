@@ -7,8 +7,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Zwlin98/moon/gate"
-	"github.com/Zwlin98/moon/lua"
+	"github.com/cloudfreexiao/eris/gate"
+	"github.com/cloudfreexiao/eris/lua"
 )
 
 // call/send other skynet node

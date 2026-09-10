@@ -1,3 +1,3 @@
-module github.com/Zwlin98/moon
+module github.com/cloudfreexiao/eris
 
-go 1.22.2
+go 1.27.1
